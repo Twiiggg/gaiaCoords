@@ -9,7 +9,10 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.twiiggg.gaiacoords",
+      "infoPlist": {
+        "MSlocationUsageDescription": "Este aplicativo precisa de acesso à sua localização para mostrar sua posição no mapa."
     },
     "android": {
       "adaptiveIcon": {
